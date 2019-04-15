@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="com.addUser.Editor"/>
+      <class name="com.addUser.HR1"/>
+      <class name="com.addUser.Adduser"/>
+      <class name="com.addUser.Scrum_Master"/>
+      <class name="com.addUser.Team_leader"/>
+      <class name="com.addUser.Devloper"/>
+      <class name="com.addUser.Scriptor"/>
+      <class name="com.addUser.Data_Steward"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
